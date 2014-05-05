@@ -23,7 +23,7 @@ else
 
 
     @latitude = " "
-    @longitude = " "
+    @longitude = "  "
 
 
   end
