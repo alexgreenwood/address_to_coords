@@ -2,7 +2,7 @@
 
 <form>
   <label for="form1">What address would you like the coordinates for?</label>
-  <input type="text" id="form1" name="address">
+  <input type="text" id="form1" name="address" placeholder="enter address here">
   <button>Search</button>
 </form>
 
@@ -11,7 +11,7 @@
 
 <dl>
   <dt>Address:</dt>
-  <dd><%= @address %></dd>
+  <dd><%= params[:address] %></dd>
 
   <dt>URL Safe Address:</dt>
   <dd><%= @url_safe_address %></dd>
